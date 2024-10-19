@@ -169,7 +169,7 @@ img {
 
 .current {
         position: relative;
-        color: ;
+        color: #2e2f42;;
         }
 .section-menu-first {
         background-color: #2e2f42;
@@ -298,8 +298,8 @@ margin-left: auto;
 .element::before {
         display: block;
         content: "";
-        height: 120px;
-        background-color: var(--second-bgc);
+        height: 112px;
+        background-color: #2e2f42;
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 4px;
