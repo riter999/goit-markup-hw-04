@@ -64,6 +64,8 @@ img {
 
 
 
+
+
 .container {
         width: 1158px;
         margin-left: auto;
@@ -144,6 +146,7 @@ img {
 
 }
 
+
 .contacts-link:focus {
         color: #404bbf;
 }
@@ -156,7 +159,18 @@ img {
 .link-header:focus {
         color: #404bbf;
 }
+.main-menu.current::after {
+        content: '';
+        width: 100%;
+        display: block;
+        height: 2px;
+        background-color: #4D5AE5;
+}
 
+.current {
+        position: relative;
+        color: ;
+        }
 .section-menu-first {
         background-color: #2e2f42;
         padding-top: 188px;
