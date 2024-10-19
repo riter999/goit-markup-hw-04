@@ -161,6 +161,12 @@ img {
         background-color: #2e2f42;
         padding-top: 188px;
         padding-bottom: 188px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../images/people-office\ 1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 1440px;
+        margin: 0 auto;
+        
 }
 .section-menu {
         padding-top: 120px;
