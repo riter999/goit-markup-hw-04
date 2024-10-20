@@ -164,12 +164,17 @@ img {
         width: 100%;
         display: block;
         height: 2px;
-        background-color: #4D5AE5;
+        background-color: #404bbf;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        border-radius: 2px;
 }
 
 .current {
         position: relative;
-        color: #2e2f42;;
+        color: #404bbf;
         }
 .section-menu-first {
         background-color: #2e2f42;
