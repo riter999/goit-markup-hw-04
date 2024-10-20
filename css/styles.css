@@ -439,3 +439,9 @@ margin-left: auto;
         border: 1px solid #8e8f99;
         margin-bottom: 8px;
 }
+.soc-item {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+
+}
