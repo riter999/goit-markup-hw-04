@@ -164,21 +164,23 @@ img {
         color: #404bbf;
 }
 .main-menu.current::after {
-        content: '';
-        width: 100%;
-        background-color: #404bbf;
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        border-radius: 2px;
-        position: relative;
-        color: #404bbf;
+content: '';
+width: 100%;
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: #404bbf;
+border-radius: 2px;
+
+        
+        
 }
 
 .current {
-        
         color: #404bbf;
+                position: relative;
+
         }
 .section-menu-first {
         background-color: #2e2f42;
