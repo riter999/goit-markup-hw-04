@@ -166,8 +166,6 @@ img {
 .main-menu.current::after {
         content: '';
         width: 100%;
-        display: block;
-        height: 2px;
         background-color: #404bbf;
         position: absolute;
         left: 0;
