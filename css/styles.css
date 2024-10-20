@@ -172,10 +172,12 @@ img {
         bottom: -1px;
         height: 4px;
         border-radius: 2px;
+        position: relative;
+        color: #404bbf;
 }
 
 .current {
-        position: relative;
+        
         color: #404bbf;
         }
 .section-menu-first {
