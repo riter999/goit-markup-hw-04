@@ -142,6 +142,7 @@ img {
         gap: 40px;
         padding: 24px 0;
         display: block;
+        position: relative;
 }
 
 .menu-item {
