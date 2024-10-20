@@ -295,15 +295,7 @@ margin-left: auto;
 
 }
 
-.element::before {
-        display: block;
-        content: "";
-        height: 112px;
-        background-color: #2e2f42;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 4px;
-      }
+
 
 
 
@@ -313,8 +305,14 @@ margin-left: auto;
         column-gap: 24px;
         row-gap: 48px;
         width: calc((100% - 72px) / 4);
+        content: "";
+        display: block;
+         border: 1px solid var(--light-slate);
+        border-radius: 4px;
+         width: 264px;
+         height: 112px;
+        background: #abaefc;
 
-        
 }
 
 
@@ -403,4 +401,11 @@ margin-left: auto;
                 letter-spacing: 0.02em;
                 
                 margin-bottom: 8px
+}
+
+.icons-strategy {
+        margin-bottom: 24px;
+        margin-top: 24px;
+        margin-left: 100px;
+        margin-right: 100px;
 }
