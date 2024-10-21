@@ -465,5 +465,13 @@ margin-left: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
+}
+
+.team__link:hover,
+.team__link:focus {
+        background-color: #404bbf;
+}
+.icons-soc {
+        fill: #f4f4fd;
 }
