@@ -539,11 +539,17 @@ align-items: center;
 justify-content: center;
 
 }
-.footer-link:hover {
+.footer-link:hover
+.footer-link:focus
+ {
         background-color: #31d0aa;
 
 }
 .footer-div {
         margin-right: 120px;
-        
+
+}
+.container-footer {
+        display: flex;
+        align-items: baseline;
 }
