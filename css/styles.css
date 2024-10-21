@@ -475,3 +475,6 @@ margin-left: auto;
 .icons-soc {
         fill: #f4f4fd;
 }
+.element-ex {
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
