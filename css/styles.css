@@ -562,6 +562,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.paragraph:hover {
+.li-four:hover .paragraph {
         transform: translateY(0%);
 }
