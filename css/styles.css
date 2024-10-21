@@ -168,7 +168,7 @@ img {
 .link-header:focus {
         color: #404bbf;
 }
-.link-header.current::after {
+.link-header .current::after {
 content: '';
 width: 100%;
 position: absolute;
