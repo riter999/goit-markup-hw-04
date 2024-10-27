@@ -596,6 +596,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
        
 }
+
+.is-open {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+}
 .backdrop.is-open {
         opacity: 1;
         visibility: visible;
@@ -652,7 +658,8 @@ padding-left: 38px;
         fill: #ffffff
 }
 .btn-style {
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       
 }
 .label-modal {
         font-weight: 400;
@@ -676,6 +683,10 @@ display: block;
         bottom: 4px;
         right: 4px;
         position: absolute;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        top: 50%;
+        transform: translateY(-50%); 
+        
         
 }
 .modal-wrapper {
