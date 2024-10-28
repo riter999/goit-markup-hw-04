@@ -734,12 +734,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.privacy-span:checked {
+
+
+
+#user-privacy:checked + label .privacy-span {
         background-color: #404bbf; 
 }
-
-
-
 
 
 
