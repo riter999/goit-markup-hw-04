@@ -311,9 +311,6 @@ border-radius: 2px;
         margin-bottom: 48px;
         
     }
-    
-}
-    
     .button{
         font-weight: 500;
         font-size: 16px;
@@ -332,8 +329,24 @@ border-radius: 2px;
         background-size: cover;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
-
+    
+}
+    
+    
+    .element {
+        flex-wrap: wrap;
+        display: flex;
+       width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      
+}
+.container {
+    max-width: 320px;
+    
+        padding-left: 16px;
+        padding-right: 16px;
+}
 .section-menu {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -456,8 +469,6 @@ border-radius: 2px;
 .section-menu-three {
     background-color: #f0f8ff;
     letter-spacing: 0.02em;
-    padding-top: 95px;
-    padding-bottom: 95px;
     text-align: center;
     
 
@@ -488,6 +499,7 @@ text-align: center;
 color: var(--navy-blue);
 margin-top: 32px;
 margin-bottom: 8px;
+
 }
 .professi-item{
     font-weight: 400;
@@ -503,6 +515,7 @@ color: var(--slate);
 .soc-item-point {
     width: 40px;
     height: 40px;
+    
     
     
 }
@@ -533,10 +546,12 @@ color: var(--slate);
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+        
     }
     
     .li-three {
         width: 100%;
+        
     }
     .title-item {
 font-family: "Roboto", sans-serif;
@@ -546,6 +561,7 @@ line-height: 1.11111;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+
     }
 
     .ul-four {
@@ -568,6 +584,5 @@ color: #2e2f42;
     transform: translateY(0%);
 }
 
-
-
 }
+
